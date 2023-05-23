@@ -28,12 +28,12 @@ The [European Soccer Database](https://www.kaggle.com/datasets/hugomathien/socce
 
 The information is spread across 7 tables:
 
-![database_tables.PNG](attachment:77570cab-8f81-4205-b8af-d0fa65cb15dd.PNG)
+![](images/database_tables.PNG)
          
 
 A very helpful diagram of the database schema is included below, as provided by [Felipe Mahlmeister](https://github.com/fmahlmeister). This shows the links between the tables which will help us construct the appropriate JOIN queries to get the information we need.
 
-![metadata.png](attachment:c1627504-4c14-44b0-b5ee-06d36c82dc6a.png)
+![](images/metadata.png)
 
 ### Joining data using SQL 
 
@@ -976,7 +976,7 @@ team_attributes.head()
 
 ## Which Polish teams are included in the database?
 
-![poland.jpg](attachment:004f51d7-978b-4b35-9a3f-c7da366903e6.jpg)
+![](poland.jpg)
 
 
 ```python
