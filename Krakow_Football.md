@@ -1,10 +1,3 @@
----
-title: "Wisła Kraków vs. KS Cracovia"
-author: "Stephen Barrie"
-date: "2022-12-05"
-categories: [Projects, SQL]
-image: 'smok wawelski.jpg'
----
 ### Project idea
 
 I arrived in Kraków a few months back and during my wanderings I noticed two football stadiums on either side of [Błonia](https://pl.wikipedia.org/wiki/B%C5%82onia_(Krak%C3%B3w)) separated by just 700 metres. I didn't know anything about either of these clubs but was told that the rivalry between them is intense. The so-called Holy War between Wisła Kraków and KS Cracovia has even featured in documentaries by Ross Kemp and Danny Dyer. 
@@ -759,7 +752,7 @@ plt.title(subtitle_string, fontsize=10)
 
 
     
-![png](output_40_1.png)
+![](images/output_40_1.png)
     
 
 
@@ -976,7 +969,7 @@ team_attributes.head()
 
 ## Which Polish teams are included in the database?
 
-![](poland.jpg)
+![](images/poland.jpg)
 
 
 ```python
@@ -1184,7 +1177,7 @@ The first recorded Kraków Derby was contested on 20 September 1908, a 1–1 dra
 
 They have 14 league titles in their trophy cabinet, the most recent win was 2010/2011.
 
-<img src="Wisła_Kraków_logo.png" width="200" height ="200"/>   <img src="Wisla stadium.jpg" width="400" height ="400"/>
+<img src="images/Wisła_Kraków_logo.png" width="200" height ="200"/>   <img src="images/Wisla stadium.jpg" width="400" height ="400"/>
 
 
 [KS Cracovia](https://en.wikipedia.org/wiki/MKS_Cracovia) also formed in 1906, are widely considered to be the oldest club in Kraków. They play their football at the Stadion Cracovii im. Józefa Piłsudskiego which has a capacity of 15,016.
@@ -1192,7 +1185,7 @@ They have 14 league titles in their trophy cabinet, the most recent win was 2010
 They have 5 league titles in their trophy cabinet, however they are getting a bit dusty. The last time they won the title was 1948.
 
 
-<img src="Cracovia_logo.png" width="200" height ="200"/>   <img src="Cracovia stadium.jfif"  width="400" height ="400"/>
+<img src="images/Cracovia_logo.png" width="200" height ="200"/>   <img src="images/Cracovia stadium.jfif"  width="400" height ="400"/>
 
 
 So, what happens when these clubs go toe to toe?! Let's find out by looking at the results for the matches between the bitter rivals over the period of study:
@@ -1232,7 +1225,7 @@ derbies['outcome'].value_counts().plot(kind='pie',autopct='%.2f')
 
 
     
-![png](output_55_1.png)
+![](images/output_55_1.png)
     
 
 
@@ -1428,7 +1421,7 @@ But of course it's not all about the derby matches. Let's now take a look at how
 
 ## Wisła Kraków 
 
-<img src="Wisla strip.png" width="250" height ="250"/> 
+<img src="images/Wisla strip.png" width="250" height ="250"/> 
 
 ### 2008/2009 to 2015/2016
 
@@ -1463,7 +1456,7 @@ wisla_krakow_goals.plot.bar(x='season', stacked=True, title ='Wisła Kraków - g
 
 
     
-![png](output_64_1.png)
+![](images/output_64_1.png)
     
 
 
@@ -1594,7 +1587,7 @@ wisla_krakow_goal_diff.plot.bar(x='season', stacked=False, title ='Wisła Krakó
 
 
     
-![png](output_68_1.png)
+![](images/output_68_1.png)
     
 
 
@@ -1709,7 +1702,7 @@ wisla_krakow_wins_losses.plot.bar(x='season', stacked=True, title ='Wisła Krak�
 
 
     
-![png](output_72_1.png)
+![](images/output_72_1.png)
     
 
 
@@ -1846,7 +1839,7 @@ wisla_krakow_win_pct.plot.bar(x='season', stacked=False, title ='Wisła Kraków 
 
 
     
-![png](output_76_1.png)
+![](images/output_76_1.png)
     
 
 
@@ -1971,7 +1964,7 @@ wisla_krakow_points.plot.bar(x='season', stacked=False, title ='Wisła Kraków -
 
 
     
-![png](output_80_1.png)
+![](images/output_80_1.png)
     
 
 
@@ -2079,7 +2072,7 @@ wisla_krakow_points.plot.barh(x='season', y='Position', title ='Wisła Kraków -
 
 
     
-![png](output_86_1.png)
+![](images/output_86_1.png)
     
 
 
@@ -2212,7 +2205,7 @@ wisla_recent_goals.plot.bar(x='season', stacked=False, title ='Wisła Kraków - 
 
 
     
-![png](output_93_1.png)
+![](images/output_93_1.png)
     
 
 
@@ -2312,7 +2305,7 @@ wisla_recent_wins.plot.bar(x='season', stacked=False, title ='Wisła Kraków - w
 
 
     
-![png](output_97_1.png)
+![](images/output_97_1.png)
     
 
 
@@ -2419,7 +2412,7 @@ wisla_recent_points.plot.bar(x='season', stacked=False, title ='Wisła Kraków -
 
 
     
-![png](output_101_1.png)
+![](images/output_101_1.png)
     
 
 
@@ -2509,7 +2502,7 @@ wisla_recent.plot.barh(x='season', y='position', title ='Wisła Kraków - final 
 
 
     
-![png](output_105_1.png)
+![](images/output_105_1.png)
     
 
 
@@ -2587,11 +2580,11 @@ The decline in points totals is mirrored by a declining league position. Wisła 
 
 The second tier I Liga table for 2022/2023 at the time of writing is shown below. The season is on hold as the FIFA World Cup - Qatar 2022 progresses.  Wisła Kraków are languishing mid table. A long way away from the dizzy heights of the Ekstraklasa championship winning side of 2010/2011.
 
-![Liga_1_2022_2-23.PNG](attachment:e5a7e284-1a62-4ccc-b3c2-00b7469d4ee1.PNG)
+![](images/Liga_1_2022_2-23.PNG)
 
 ## KS Cracovia
 
-<img src="cracovia strip.jpg"  width="200" height ="200"/>
+<img src="images/cracovia strip.jpg"  width="200" height ="200"/>
 
 ### 2008/2009 to 2015/2016
 
@@ -2622,7 +2615,7 @@ cracovia_goals.plot.bar(x='season', stacked=True, title ='KS Cracovia - goals fo
 
 
     
-![png](output_115_1.png)
+![](images/output_115_1.png)
     
 
 
@@ -2753,7 +2746,7 @@ cracovia_goal_diff.plot.bar(x='season', stacked=False, title ='KS Cracovia - goa
 
 
     
-![png](output_119_1.png)
+![](images/output_119_1.png)
     
 
 
@@ -2868,7 +2861,7 @@ cracovia_wins_losses.plot.bar(x='season', stacked=True, title ='KS Cracovia - ga
 
 
     
-![png](output_123_1.png)
+![](images/output_123_1.png)
     
 
 
@@ -3005,7 +2998,7 @@ cracovia_win_pct.plot.bar(x='season', stacked=False, title ='KS Cracovia - win p
 
 
     
-![png](output_127_1.png)
+![](images/output_127_1.png)
     
 
 
@@ -3132,7 +3125,7 @@ cracovia_points.plot.bar(x='season', stacked=False, title ='KS Cracovia - total 
 
 
     
-![png](output_131_1.png)
+![](images/output_131_1.png)
     
 
 
@@ -3240,7 +3233,7 @@ cracovia_points.plot.barh(x='season', y='Position', title ='KS Cracovia - final 
 
 
     
-![png](output_136_1.png)
+![](images/output_136_1.png)
     
 
 
@@ -3376,7 +3369,7 @@ cracovia_recent_goals.plot.bar(x='season', stacked=False, title ='KS Cracovia - 
 
 
     
-![png](output_143_1.png)
+![](images/output_143_1.png)
     
 
 
@@ -3476,7 +3469,7 @@ cracovia_recent_wins.plot.bar(x='season', stacked=False, title ='KS Cracovia - w
 
 
     
-![png](output_147_1.png)
+![](images/output_147_1.png)
     
 
 
@@ -3584,7 +3577,7 @@ cracovia_recent_points.plot.bar(x='season', stacked=False, title ='KS Cracovia -
 
 
     
-![png](output_151_1.png)
+![](images/output_151_1.png)
     
 
 
@@ -3677,7 +3670,7 @@ cracovia_recent.plot.barh(x='season', y='position', title ='KS Cracovia - final 
 
 
     
-![png](output_155_1.png)
+![](images/output_155_1.png)
     
 
 
@@ -3755,7 +3748,7 @@ Mixed fortunes for KS Cracovia, an improvement from 2016/2017 and a 4th place fi
 
 The Ekstraklasa league table for 2022/2023 at the time of writing is shown below. The season is on hold as the FIFA World Cup - Qatar 2022 progresses.  KS Cracovia are sitting in 8th place, just four points behind Widzew and Pogon Szczecin in 3rd and 4th place respectively. Raków Częstochowa have a 9 point lead at the top of the table over nearest challengers Legia Warsaw.
 
-![ekstraklasa.PNG](attachment:f84441a8-29d8-4bde-be0f-792c8463c58b.PNG)!
+![](images/ekstraklasa.PNG)
 
 ## Key takeaways
 
