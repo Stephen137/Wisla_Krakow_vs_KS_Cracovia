@@ -1427,6 +1427,7 @@ But of course it's not all about the derby matches. Let's now take a look at how
 
 #### Gooooooooooool !
 
+![](images/ball.png)
 
 ```python
 # Use a SQL CASE WHEN with SUM query to display a table summarizing goals scored and conceded for each season
@@ -1568,6 +1569,7 @@ We have data for all 8 seasons which confirms that they were not relegated from 
 
 #### Goal difference
 
+![](images/spot difference.png)
 
 ```python
 # Add a goal difference column to the wisla_krakow_goals DataFrame
@@ -1672,6 +1674,7 @@ For the period of study Wisła Kraków scored more goals then they conceded, exc
 
 #### You win some, you lose some
 
+![](images/winner takes it all.jpg)
 
 ```python
 # Run an SQl query using COUNT CASE WHEN to extract home and away games won and lost
